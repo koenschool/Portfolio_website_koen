@@ -116,10 +116,7 @@ section{
     justify-content: flex-start;
 }
 
-.right2{
-    text-align:center;
-    float: right;
-}
+
 
 section h1{
     font-size:x-large;
@@ -127,15 +124,6 @@ section h1{
 
 section a{
     color:#3DFF46;
-}
-
-.col{
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: flex-end;
-        align-items: flex-start;
-        align-content: flex-end;
-        text-align: right;
 }
 
 footer {
@@ -151,4 +139,7 @@ footer {
 
   .fill{
     margin-top:50%;
+  }
+  .two{
+    background-color: #4c4c4c;
   }
