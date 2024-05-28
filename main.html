@@ -6,17 +6,25 @@
     <meta name="author" content="Koen Polfliet">
     <title>Portfolio website.</title>
     <!-- <link rel="icon" href="img/koenpfp.jpg"> -->
-    <!-- <meta name="description" content="portofolio website van koen">
-    <meta name="keywords" content="portofolio,website,coderen"> -->
+    <meta name="description" content="Portofolio website van koen Polfliet. Dit moest is een school project en gebruikt ik om te laten zien wat ik allemaal kan.">
+    <meta name="keywords" content="portofolio,website,coderen">
     <meta name="author" content="Koen Polfliet">
-    <link rel="stylesheet" href="style.scss">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel=”canonical” href=”http://127.0.0.1:5500/Portfolio_website_koen/main.html” />
     <script defer src="code.js"></script>
     <title>Portfolio</title>
 </head>
 <body>
-    <header>Welkom op mijn website</header>
-    <img src="img/koenpfp.jpg" width="10%" height="10%" alt="Koen Polfliet" class="foto">
-    <nav>
+    <header>Welkom op de website van</header>
+    <header>Koen Polfliet</header>
+    <!-- ik weet niet zeker of ik dit erin wil hebben omdat het er niet heel mooi uitziet -->
+    <!-- <div class="menu">
+        <a href="#overmij">Over mij</a><br>
+        <a href="#project">Projecten</a>
+    </div> -->
+    <img src="img/koenpfp.jpg" width="10%" height="10%" alt="Foto van Koen."  title="Foto van Koen." class="foto">
+
+    <nav id="overmij">
     <section class="b"><p>Hallo mijn naam is Koen Polfliet. Ik ben een enthousiast persoon die graag dingen leert en erg gemotiveerd is.</p></section>
     <article class="c"><p>Scouting is een belangrijke hobby voor mij.
         Elke vrijdag is er een opkomst en</p><br><p>
@@ -31,27 +39,28 @@
         Eigenlijk ben ik hier al best lang mee bezig.
         Ik ben op mijn 13e begonnen met Scratch</p><br><p>
         en heb zo mijn eerste stappen gezet op het
-        gebied van programmeren.</p></section>
-    <article class="e"><p>Tijdens de opleiding krijg ik les in Scrum en
+        gebied van programmeren. Tijdens de opleiding krijg ik les in Scrum en
         de volgende programmeertalen:</p><br><p>HTML,
-        CSS, Javascript, PHP EN SQL.</p></article>
+        CSS, Javascript, PHP EN SQL.</p></section>
+    <article class="e"><p>Ik heb een vmbo theoretische diploma en heb in 2023 gewerkt bij de supermarkt Jumbo als vakkenvuller.</p></article>
         <!-- dit staat heirnog omdat ik niet zeker weet of ik hier iets wil stoppen -->
     <!-- <section class="f"><p>*uitleg overmijzelf*</p></section> -->
     </nav>
     <br><br>
-    <section>
+    <section id="project">
         <aside class="right">
             <h1>Earth intruders</h1>
             <br><hr><br>
             <p>Earth intruders is een spel dat voor een school project heb gemaakt.</p>
             <p>Het is een iets andere versie van het populaire spel space invaders maar dan gemaakt door mij.</p>
             </aside>
+            <div class="video">
         <video width="30%" height="30%" autoplay loop>
             <source src="img/earth.mp4" type="video/mp4">
             <source src="img/earth.ogg" type="video/ogg">
             <source src="img/earth.webm" type="video/webm">
         </video><br>
-        <a href="https://koenschool.github.io/test/p2-earth-intruders/game.html">Link naar Earth intruders.</a>
+        <a href="https://koenschool.github.io/test/p2-earth-intruders/game.html">Link naar Earth intruders.</a></div>
         </section>
 
         <!-- dit gaat nog een ander spelleteje worden -->
@@ -64,17 +73,21 @@
                     Zodra de kat een groen bolletje wordt moet je op je bolletje klikken en krijg je een punt. Als je klik als het rood of te vroeg is verlies je een punt.
                     Wie het eerste 3 punten heeft wint.</p>
                 </aside>
+                <div class="video">
             <video width="30%" height="30%" autoplay loop>
                 <source src="img/4pg.mp4" type="video/mp4">
                 <!-- <source src="img/earth.ogg" type="video/ogg"> -->
                 <source src="img/4pg.webm" type="video/webm">
             </video><br>
-            <a href="https://koenschool.github.io/test/4_player_game/4_player_game.html">Link naar 4_player_game.</a>
+            <a href="https://koenschool.github.io/test/4_player_game/4_player_game.html">Link naar 4_player_game.</a></div>
             </section>
     <br class="fill">
     <footer>
+        <p>Contact opnemen?</p>
+        <p>Je kunt mij via deze middelen bereiken:</p>
         <p>Email:koen.polfliet.nl@hotmail.com</p>
         <p>Telefoonnummer:+31 (0)6 - 24 18 49 28</p>
+        <p>Als je meer van mijn werkt wilt zien overweeg dan naar mijn github te kijken.</p>
         <p><a href="https://github.com/koenschool">Github</a></p>
         </footer>
 </body>

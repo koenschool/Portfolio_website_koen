@@ -1,0 +1,202 @@
+.b p {
+  left: 110%;
+  animation-fill-mode: forwards;
+  position: relative;
+  animation-name: b;
+  animation-duration: 3s;
+}
+
+@keyframes b {
+  from {
+    left: 110;
+  }
+  to {
+    left: 0%;
+  }
+}
+.c p {
+  left: 110%;
+  animation-fill-mode: forwards;
+  position: relative;
+  animation-name: c;
+  animation-duration: 3s;
+  animation-delay: 0.25s;
+}
+
+@keyframes c {
+  from {
+    left: -110%;
+  }
+  to {
+    left: 0%;
+  }
+}
+.d p {
+  left: 110%;
+  animation-fill-mode: forwards;
+  position: relative;
+  animation-name: d;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+}
+
+@keyframes d {
+  from {
+    left: 110%;
+  }
+  to {
+    left: 0%;
+  }
+}
+.e p {
+  left: 110%;
+  animation-fill-mode: forwards;
+  position: relative;
+  animation-name: e;
+  animation-duration: 3s;
+  animation-delay: 0.75s;
+}
+
+@keyframes e {
+  from {
+    left: -110%;
+  }
+  to {
+    left: 0%;
+  }
+}
+.f p {
+  left: 110%;
+  animation-fill-mode: forwards;
+  position: relative;
+  animation-name: f;
+  animation-duration: 3s;
+  animation-delay: 1s;
+}
+
+@keyframes f {
+  from {
+    left: 110%;
+  }
+  to {
+    left: 0%;
+  }
+}
+* {
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #4c4c4c;
+}
+
+header {
+  color: #00BFFF;
+  font-size: xx-large;
+  font-weight: 900;
+  text-align: center;
+}
+
+/* voor het gedeelte met de bewegende text */
+.b, .d, .f {
+  overflow-x: hidden;
+  background-color: #2B2B2B;
+  padding: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.c, .e {
+  overflow-x: hidden;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+nav p {
+  font-size: large;
+  color: #00BFFF;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
+article {
+  text-align: right;
+  padding: 1%;
+}
+
+/* voor het gedeelte over earth intruders */
+section {
+  margin-top: 5%;
+  background-color: #3C3C3C;
+  color: #3DFF46;
+}
+
+.right {
+  width: 40%;
+  text-align: center;
+  float: right;
+}
+
+.left {
+  width: 40%;
+  text-align: center;
+  justify-content: flex-start;
+}
+
+section h1 {
+  font-size: x-large;
+}
+
+section a {
+  color: #3DFF46;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 3px;
+  background-color: slategray;
+  color: lightblue;
+}
+
+.fill {
+  margin-top: 50%;
+}
+
+.two {
+  color: white;
+  background-color: #4c4c4c;
+}
+
+.two a {
+  color: white;
+}
+
+.foto {
+  margin: 1%;
+  border: #3C3C3C 3px solid;
+  outline: 3px solid #00BFFF;
+  border-radius: 10%;
+  width: 15%;
+  height: 15%;
+}
+
+@media screen and (max-width: 600px) {
+  .right, .left {
+    width: 100%;
+  }
+  .foto {
+    width: 50%;
+    height: 50%;
+  }
+  .video {
+    text-align: center;
+  }
+}/*# sourceMappingURL=style.css.map */

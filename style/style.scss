@@ -95,6 +95,26 @@ nav p{
     color:#00BFFF;
 }
 
+// ik weet niet zeker of ik dit erin wil hebben omdat het er niet heel mooi uitziet
+// .menu {
+//     // border: 1px solid transparent;
+//     border-radius: 10%;
+//     background-color: grey;
+//     z-index: 100;
+//     position: -webkit-fixed;
+//     position: fixed;
+//     top: 0;
+//     margin-top: 1%;
+//     padding:0.5%;
+//     margin-left:3%;
+//     font-size: large;
+//     color: white;
+//   }
+  
+  a, a:visited, a:hover, a:active {
+    color: inherit;
+  }
+
 article{
     text-align: right;
     padding:1%;
@@ -137,10 +157,11 @@ footer {
     width: 100%;
     text-align: center;
     padding: 3px;
-    background-color: #00BFFF;
-    color: white;
+    background-color:slategray;
+    color:lightblue;
   }
 
+  //dit werkt op fire fox maar niet op chrome ik heb meerdere dingen geprobeerd maar het werkt niet
   .fill{
     margin-top:50%;
   }
@@ -170,5 +191,8 @@ footer {
     .foto{
         width: 50%;
         height: 50%;
+    }
+    .video{
+        text-align: center;
     }
   }
