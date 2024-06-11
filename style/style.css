@@ -15,6 +15,7 @@
   }
 }
 .c p {
+  text-align: right;
   left: 110%;
   animation-fill-mode: forwards;
   position: relative;
@@ -123,13 +124,10 @@ a, a:visited, a:hover, a:active {
   color: inherit;
 }
 
-article {
-  text-align: right;
-  padding: 1%;
-}
+
 
 /* voor het gedeelte over earth intruders */
-section {
+article {
   margin-top: 5%;
   background-color: #3C3C3C;
   color: #3DFF46;
@@ -147,11 +145,11 @@ section {
   justify-content: flex-start;
 }
 
-section h1 {
+article h2 {
   font-size: x-large;
 }
 
-section a {
+article a {
   color: #3DFF46;
 }
 
